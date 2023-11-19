@@ -4,5 +4,12 @@
     "source.fixAll.eslint": true,
     "source.addMissingImports": true
   },
-  "cSpell.words": ["autodocs", "nextjs", "tailwindcss"]
+  "cSpell.words": [
+    "autodocs",
+    "Hayashi",
+    "Hayashi's",
+    "nextjs",
+    "tailwindcss",
+    "Yuuki"
+  ]
 }

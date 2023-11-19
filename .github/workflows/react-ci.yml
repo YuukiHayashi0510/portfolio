@@ -24,7 +24,7 @@ jobs:
         if: ${{ steps.node_modules_cache_id.outputs.cache-hit != 'true' }}
         run: yarn install
       - name: eslint-check
-        run: yarn eslint
+        run: yarn lint
       - name: prettier-check
         run: yarn fmt:check
       - name: build
