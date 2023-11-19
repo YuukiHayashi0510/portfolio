@@ -2,22 +2,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-### Docker
-
-DockerでDBを作成する
-
-```bash
-docker compose up -d
-```
-
-DBは`docker/init/setup.sql`で名前等変更可能
-
-### Seed
-
-```bash
-yarn db:seed
-```
-
 ### Development Server
 
 First, run the development server:
