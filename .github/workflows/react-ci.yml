@@ -1,8 +1,8 @@
 name: React-CI
-on: push
+on: pull_request
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
