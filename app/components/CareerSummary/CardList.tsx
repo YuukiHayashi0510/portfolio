@@ -12,7 +12,7 @@ const DATA: Data[] = [
   {
     year: 23,
     title: 'Web, Mobile Application Engineer',
-    affiliation: 'Uzu Inc.',
+    affiliation: 'Sally Inc.',
     description:
       "Worked on developing the company's main product, a complex application.",
   },
