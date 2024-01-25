@@ -2,6 +2,6 @@
   "semi": false,
   "singleQuote": true,
   "jsxSingleQuote": true,
-  "tailwindFunctions": ["twMerge"],
+  "tailwindFunctions": ["twMerge", "tv"],
   "plugins": ["prettier-plugin-tailwindcss"]
 }
