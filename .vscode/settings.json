@@ -11,5 +11,10 @@
     "nextjs",
     "tailwindcss",
     "Yuuki"
+  ],
+  // tvのクラス名ソート対応
+  // 参考：https://zenn.dev/apple_yagi/articles/fde1bdfafee65f
+  "tailwindCSS.experimental.classRegex": [
+    ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
   ]
 }

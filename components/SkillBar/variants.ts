@@ -11,7 +11,7 @@ export const skillText = tv({
       TypeScript: 'text-blue-500',
       Flutter: 'text-sky-400',
       'Next.js':
-        'text-transparent bg-gradient-to-br from-nextjs-start via-nextjs-mid to-nextjs-end bg-clip-text',
+        'bg-gradient-to-br from-nextjs-start via-nextjs-mid to-nextjs-end bg-clip-text text-transparent',
       Go: 'text-sky-500',
       SQL: 'text-purple-500',
     },
