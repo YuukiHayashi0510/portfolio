@@ -78,7 +78,7 @@ const Terminal: React.FC = () => {
       className='min-h-screen bg-black p-4 pt-32 font-mono text-green-500'
       onClick={focusInput}
     >
-      <div ref={outputRef} className='mb-4 flex-grow'>
+      <div className='mb-4 flex-grow' ref={outputRef}>
         {history.map((item, index) => (
           <div key={index}>
             {item.command && <div>$ {item.command}</div>}
@@ -86,14 +86,14 @@ const Terminal: React.FC = () => {
           </div>
         ))}
       </div>
-      <form onSubmit={handleSubmit} className='flex'>
+      <form className='flex' onSubmit={handleSubmit}>
         <span>$&nbsp;</span>
         <input
-          type='text'
-          value={input}
+          className='flex-grow bg-black text-green-500 focus:outline-none'
           onChange={handleInputChange}
           ref={inputRef}
-          className='flex-grow bg-black text-green-500 focus:outline-none'
+          type='text'
+          value={input}
         />
       </form>
     </div>

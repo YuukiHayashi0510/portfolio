@@ -27,7 +27,7 @@ export const Header = () => {
             </a>
           </li>
           <li>
-            <Link href='/terminal' className='hover:text-green-400'>
+            <Link className='hover:text-green-400' href='/terminal'>
               Terminal
             </Link>
           </li>
